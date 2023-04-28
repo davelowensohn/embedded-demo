@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+navbar {
+  position: fixed;
+  width: 100vw;
+  z-index:99999;
+}
+
+.menu {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  place-content: center;
+}
+
+.wrapper .container {
+  width: 100%;
+  background: #fff !important;
+  padding: 0;
+}
